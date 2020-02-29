@@ -1,0 +1,126 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 15, Errors: 0, Skipped: 0, Time elapsed: 38.62 sec <<< FAILURE!
+leaveLabelvalidation(com.hrms.testcases.LeaveListPageTest)  Time elapsed: 0.039 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.LeaveListPageTest.leaveLabelvalidation(LeaveListPageTest.java:19)
+
+leaveLabelvalidation1(com.hrms.testcases.LeaveListPageTest)  Time elapsed: 4.425 sec  <<< FAILURE!
+java.lang.AssertionError: did not expect to find [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.failNotEquals(Assert.java:969)
+	at org.testng.Assert.assertTrue(Assert.java:43)
+	at org.testng.Assert.assertTrue(Assert.java:53)
+	at com.hrms.testcases.LeaveListPageTest.leaveLabelvalidation1(LeaveListPageTest.java:39)
+
+addMultipleEmpoyee(com.hrms.testcases.AddEmployeePageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.AddEmployeePageTest.addMultipleEmpoyee(AddEmployeePageTest.java:25)
+
+addMultipleEmpoyee(com.hrms.testcases.AddEmployeePageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.AddEmployeePageTest.addMultipleEmpoyee(AddEmployeePageTest.java:25)
+
+addMultipleEmpoyee(com.hrms.testcases.AddEmployeePageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.AddEmployeePageTest.addMultipleEmpoyee(AddEmployeePageTest.java:25)
+
+addMultipleEmpoyee(com.hrms.testcases.AddEmployeePageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.AddEmployeePageTest.addMultipleEmpoyee(AddEmployeePageTest.java:25)
+
+addMultipleEmpoyee(com.hrms.testcases.AddEmployeePageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.AddEmployeePageTest.addMultipleEmpoyee(AddEmployeePageTest.java:25)
+
+addMultipleEmpoyee(com.hrms.testcases.AddEmployeePageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.AddEmployeePageTest.addMultipleEmpoyee(AddEmployeePageTest.java:25)
+
+addMultipleEmpoyee(com.hrms.testcases.AddEmployeePageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.AddEmployeePageTest.addMultipleEmpoyee(AddEmployeePageTest.java:25)
+
+addMultipleEmpoyee(com.hrms.testcases.AddEmployeePageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.AddEmployeePageTest.addMultipleEmpoyee(AddEmployeePageTest.java:25)
+
+addMultipleEmpoyee(com.hrms.testcases.AddEmployeePageTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.AddEmployeePageTest.addMultipleEmpoyee(AddEmployeePageTest.java:25)
+
+addMultipleEmpoyee(com.hrms.testcases.AddEmployeePageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.AddEmployeePageTest.addMultipleEmpoyee(AddEmployeePageTest.java:25)
+
+addMultipleEmpoyee(com.hrms.testcases.AddEmployeePageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.hrms.testcases.AddEmployeePageTest.addMultipleEmpoyee(AddEmployeePageTest.java:25)
+
+validationEmpHasAdded(com.hrms.testcases.DashboardPageTest)  Time elapsed: 2.563 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=80.0.3987.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Zamira.local', ip: '2601:343:8200:c40:0:0:0:cf44%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.87, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/c9/sm_v4zj13r5...}, goog:chromeOptions: {debuggerAddress: localhost:59621}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a7c61dee59706052a682569b7b0ce05c
+*** Element info: {Using=id, value=menu_pim_addEmployee}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:484)
+	at com.hrms.utils.CommonMethods.jsClick(CommonMethods.java:123)
+	at com.hrms.testcases.DashboardPageTest.validationEmpHasAdded(DashboardPageTest.java:37)
+
+welcome(com.hrms.testcases.DashboardPageTest)  Time elapsed: 1.525 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=80.0.3987.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Zamira.local', ip: '2601:343:8200:c40:0:0:0:cf44%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.87, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: /var/folders/c9/sm_v4zj13r5...}, goog:chromeOptions: {debuggerAddress: localhost:59646}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7357e4348f31dbd5dd0f5775cf80dfbc
+*** Element info: {Using=xpath, value=//*[@id='welcome']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at com.hrms.testcases.DashboardPageTest.welcome(DashboardPageTest.java:25)
+
